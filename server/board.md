@@ -1,0 +1,16 @@
+- [x] Server that receives server.messages.
+  - Since server.messages can be longer because of the file path attribute we'll need a Non-blocking Message Broker. 
+  - [x] MessageReader
+    - Continuously reads data from the channel stream and adds it until a full message is built.
+  - [x] Extend the reader to dynamically append server.messages
+- [x] CommandProcessor
+  - Reads commands from the input string
+  - Returns a command object
+- [x] CommandInterface 
+  - run(context)
+- [x] remove user on disconnect
+
+- [ ] Server needs to send response messages to corresponding channels
+- [ ] Delegate handling to different methods
+- [ ] Ensure exceptions on connection hang-up are handled
+- [ ] Ensure the server receives further connections after any disconnected clients
