@@ -25,5 +25,6 @@ The client application has three major features:
 - CLI-based UI where the user can pass commands
 
 ##### Design
-For the UI application I've decided on a Command Pattern behavior as it abstracts UI components 
-logic from the rest of the modules and is perfect if we want to implement a feature like `undo`. 
+For the client application I've decided on a Command Pattern behavior as it
+abstracts UI components logic from the rest of the modules and is perfect if
+we want to implement a feature like `undo`. 
