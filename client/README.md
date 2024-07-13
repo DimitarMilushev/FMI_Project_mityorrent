@@ -5,7 +5,7 @@
 
 ###  Requirements:
 
-- Support the following main.java.commands:
+- Support the following commands:
 
 
     register <user> <file1, file2, file3, …., fileN> - позволява на клиентите да „обявят“ кои файлове са налични за сваляне от тях. Чрез параметъра username, потребителят може да зададе свое уникално име (името, с което сървърът ще асоциира съответното IP).
@@ -24,7 +24,7 @@
 
 | name | address |files... |
 | ---- | ------- |:------:|
-| gosho | localhost:3001 | C://ProgramFiles/file.exe, "D://text.txt" |
+| xxxx | localhost:xxxx | PATH://to/file.exe, "D://text.txt" |
 
 - **P2P** file transport
 - Check users from the database and pull file using _download_ command
