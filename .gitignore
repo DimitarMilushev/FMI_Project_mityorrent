@@ -1,5 +1,8 @@
+# Secrets
 *.env
-*/resources/
+
+# Generated
+*/resources/*
 
 ## Compiled Java class files
 *.class
