@@ -1,4 +1,4 @@
-# Mityorrent - A bare-bones torrenting application
+# p2p - A bare-bones torrenting application
 TechStack:
 - Java (with java.nio)
 
